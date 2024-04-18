@@ -10,7 +10,7 @@ body {
 header {
     text-align: center;
     padding: 50px 0;
-    background-color: #333; /* Dark gray background color */
+    background-color: #060606; /* Dark gray background color */
     color: #fff; /* Header text color */
 }
 
@@ -23,6 +23,24 @@ h3 {
     font-size: 24px;
     color: #ccc; /* Subdued text color */
 }
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fbf9f9;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #150ef5; /* Change color on hover */
+}
+
 
 main {
     padding: 20px;
@@ -96,3 +114,4 @@ footer {
     margin-bottom: 10px;
     color: #333; /* Project title color */
 }
+
